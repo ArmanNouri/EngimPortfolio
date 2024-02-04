@@ -1,0 +1,30 @@
+.aboutMe {
+  background-image: url("pic/career-portfolio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 40px);
+}
+
+.right {
+  width: 800px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.projects {
+  margin: 100px 0;
+  height: 150vh;
+}
+
+.contacts {
+  height: 70vh;
+  margin-top: 100px;
+  background-color: #eeeeee;
+}
+
+.color-gray {
+  background-color: #eeeeee;
+}
