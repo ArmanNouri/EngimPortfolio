@@ -4,14 +4,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mypic {
+  width: 250px;
+  height: 300px;
+  margin-right: 2vh;
+  border-radius: 30px;
 }
 
 .right {
   width: 800px;
   height: 300px;
+  border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 30px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projects {
